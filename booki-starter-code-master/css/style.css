@@ -154,6 +154,7 @@ h1{
 }
 p.centre-ville{
     margin-top: 0px;
+    font-weight: 500;
 }
 /* -----------------------------------------------------------FORM MARSEILLE */
 div.searchBar{
@@ -198,6 +199,10 @@ span.recherche{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    padding: 5px;
+}
+i.fa-solid.fa-location-dot{
+   color: black;
 }
 /* ------------------------------------------------------------------------ */
 /* --------------------------------------------------------------BARRE DE FILTRES----------------- */
@@ -207,13 +212,13 @@ div.filterBar{
     flex-direction: row;
     gap: 15px;
     align-items: center;
+    font-weight: 700;
+    font-size: 17px;
 }
 div.eco,div.familial,div.romantique,div.pepites{
     display: inline-flex;
     border: 2px solid #D9D9D9;
     border-radius: 55px;
-    font-weight: 700;
-    font-size: 17px;
     line-height: 20px;
     color: black;
     padding: 0px 19px;
@@ -247,6 +252,16 @@ div.pepites:hover{
     background-color: #DEEBFF;
 }
 /* ------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------CARDS HEBERGEMENTS------------------------------------------ */
+article.cardHebergement{
+    height: 800px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+article.cardHebergement>img{
+    max-width: 50%;
+    height: 20%;
+}
 
 
 
