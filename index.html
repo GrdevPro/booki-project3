@@ -26,14 +26,14 @@
                 <div class="logo">
                     <img src="/images/logo/Booki.png" alt="Logo-Booki" class="logoBooki">
                 </div>
-                <div class="liHeader">
+                <ul class="liHeader">
                     <li class="liHebergement">
                         <a href="#hebergements"> <span class="heberge">Hébergements</span></a>
                     </li>
                     <li class="liActivites">
                         <a href="#activites"><span class="acti">Activités</span></a>
                     </li>
-                </div>
+                </ul>
             </nav>
         </header>
 
@@ -45,16 +45,18 @@
                     <p class="centre-ville">En plein centre-ville ou en pleine nature</p>
                 </div>
 
-                <div class="searchBar">
+                <form method="get" action="" class="searchBar">
                     <div class="rectangleI">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    <p class="MarseilleForm">Marseille,France</p>
+                    <p class="MarseilleForm">
+                        <input type="text" name="ville" id="Marseille" placeholder="Marseille,France">
+                    </p>
 
                     <button class="searchBtn">
                         <span class="recherche">Rechercher</span>
                     </button>
-                </div>
+                </form>
                 <div class="filterBar">
                     <p>Filtres</p>
                     <div class="eco">

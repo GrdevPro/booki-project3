@@ -150,7 +150,7 @@ span.heberge:hover{
 a{
     text-decoration: none;
 }
-div.liHeader{
+ul.liHeader{
     display: flex;
     flex-direction: row;
 }
@@ -168,7 +168,7 @@ p.centre-ville{
     font-weight: 500;
 }
 /* -----------------------------------------------------------FORM MARSEILLE */
-div.searchBar{
+form.searchBar{
     width: 377px;
     height: 49px;
     display: flex;
@@ -181,6 +181,16 @@ p.MarseilleForm{
     font-size: 18px;
     font-weight: bold;
     margin: auto;
+}
+input#Marseille{
+    border-style: none;
+}
+input#Marseille::placeholder{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: black;
 }
 div.rectangleI{
     background-color: #F2F2F2;
